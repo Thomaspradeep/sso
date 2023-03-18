@@ -21,3 +21,16 @@
 		$conn->close();
 	}
 ?>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+<div class="container signin">
+    <p>Already have an account? with us<a href="https://google.com" >Sign in</a>.</p>
+ 
+</div>
+</body>
+</html>
