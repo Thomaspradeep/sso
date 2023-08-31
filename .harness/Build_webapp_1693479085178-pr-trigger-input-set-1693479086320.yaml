@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_webapp_1693479085178-pr-trigger-input-set
+  identifier: Build_webapp_1693479085178prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_webapp_1693479085178
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
