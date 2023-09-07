@@ -1,0 +1,3 @@
+stages:
+  name: Run-test
+  Identifier: Build and deploy into docker
