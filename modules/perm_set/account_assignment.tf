@@ -4,5 +4,5 @@ resource "aws_ssoadmin_account_assignment" "account_assignment" {
   principal_type     = "USER"
   principal_id       = "c4689408-80b1-7075-4384-06471b80a0fd"
   target_type        = "AWS_ACCOUNT"
-  target_id          = "058264506178"
+  target_id          = var.account_id
 }
