@@ -12,3 +12,6 @@ variable "instance_arn" {
 variable "account_id" {
    type = string
 }
+variable "client_list"{
+    type = map(any)
+}
