@@ -9,3 +9,7 @@ clients_list = {
     pradeep = "client6"
 }
 instance_arn = "arn:aws:sso:::instance/ssoins-72238b70b2eebf44"
+client_list = {
+    deeran = "client1",
+    somesh = "client2"
+}
