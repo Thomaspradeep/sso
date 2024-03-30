@@ -9,3 +9,6 @@ variable "clients_list"{
 variable "instance_arn" {
     type = string
 }
+variable "account_id" {
+   type = string
+}
