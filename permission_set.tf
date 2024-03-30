@@ -3,4 +3,5 @@ source = "./modules/perm_set"
 for_each = var.client_list
 client_name = each.key
 instance_arn = var.instance_arn
+account_id = var.account_id
 }
